@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First-Aid Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .card-img-top {
+            object-fit: cover;
+            width: 100%; /* Ensure image covers the entire width */
+            height: 100%; /* Ensure image covers the entire height */
+        }
+        .card-text-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background */
+        }
+        .explore-button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .raleway{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 400;
+            opacity: 0.8;
+            font-style: normal;
+        }
+        #but{
+            background-color: rgb(55, 131, 55);
+            border: 2px solid rgb(184, 182, 182);
+        }
+        #but:hover{
+           opacity:0.80;
+           background-color: rgb(109, 92, 234);
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+        }
+
+        .flex-box {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-right: 1rem; /* Space between flex boxes */
+        }
+
+        .flex-box:last-child {
+            margin-right: 0; /* Remove margin from the last flex box */
+        }
+        #foot{
+            padding: 0.3rem;
+            font-size: 0.75rem;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* Align items at the start */
+            background-color: rgb(236, 238, 235);
+            padding: 20px;
+        }
+        footer .address {
+            max-width: 14rem;
+        }
+        footer .nav-links {
+            text-align: center;
+        }
+        footer .additional-info {
+            text-align: right;
+        }
+        #acc{
+            width: 2.5rem;
+            height: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: rgb(255, 255, 255);">
+        <center>
+            <p class="raleway" style="font-size: 2.4rem; line-height: 3.9rem; color: rgb(58, 56, 56);">
+                <img src="/Sem Project/sitlogo.webp" alt="" width="40">&nbsp;SIDDAGANGA FIRST-AID TRAINING
+            </p>
+        </center>
+        <center>
+            <p  style="font-size: 10px; font-weight: 450; opacity: 0.82; line-height: 1.5rem; margin-top: -0.8rem;">“To provide the right care by the right people at the right time, at the right place and the right cost”.</p>
+        </center>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="font-weight: 400; opacity: 0.65;">Courses & Training&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutorials&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Emergencies
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#1">Cardiac Emergencies</a></li>
+                            <li><a class="dropdown-item" href="#">Poisoning & Toxic Exposure</a></li>
+                            <li><a class="dropdown-item" href="#">Injuries</a></li>
+                            <li><a class="dropdown-item" href="#">Respiratory Emergencies</a></li>
+                            <li><a class="dropdown-item" href="#">Burns & Bleedings</a></li>
+                            <li><a class="dropdown-item" href="#">Loss of Consciousness</a></li>
+                            <li><a class="dropdown-item" href="#">Natural Disasters</a></li>
+                            <li><a class="dropdown-item" href="#">Psychological First-Aid</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">&nbsp;&nbsp;&nbsp;&nbsp;Registration</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+
+    <center>
+        <div class="card" style="width: 49em;">
+            <img src="/Sem Project/students.jpg" class="card-img-top" alt="..." style="height: 22rem;">
+            <div class="card-body" style="background-color: rgb(248, 248, 248);">
+              <p class="card-text" style="opacity: 0.6;">"Presented with pride: Our First Aid Training Initiative!
+                Embarked upon by the compassionate minds of Siddaganga Medical College, under the guidance of our esteemed faculty, this website stands as a beacon of knowledge and empowerment. With dedication and expertise, we strive to equip individuals with life-saving skills, fostering a safer and healthier community. Together, we take a step towards a world where every hand is ready to lend aid in times of need. Join us in this noble endeavor and let's make a difference, one life at a time."</p>
+                <p style="opacity: 0.6; margin-bottom: -0.1rem;">Medical students - batch (2022-2027)</p>
+            </div>
+          </div>
+    </center>
+    <br><br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <center>
+        <div class="card" style="width: 38rem; height: 20rem; position: relative;">
+            <img src="/Sem Project/siddaganga.webp" class="card-img-top" alt="...">
+            <figcaption style="opacity: 0.45;">Dr Shree Shree Shivakumara Swamigalu (01/04/1907 - 21/01/2019)</figcaption>
+        </div>
+    </center>
+    <br><br><br>
+    <center>
+        <div class="card" style="width: 38rem; height: 20rem; position: relative;">
+            <img src="/Sem Project/hospital.jpg" class="card-img-top" alt="...">
+            <figcaption style="opacity: 0.45;">Siddaganga Healthcare Community - "Offering Medical Services since 1963"</figcaption>
+        </div>
+    </center>
+    <br><br><br>
+    <h6 style="padding-left: 6.7rem; opacity: 0.55; font-size: 0.95rem;">About Us:</h6>
+    <center>
+        <textarea name="" id="" cols="105" rows="10" style="-moz-outline-radius: 1rem; opacity: 0.60;" readonly>Established with the blessings of his holiness Dr. Sri Sri Shivakumara Swamiji and Sri Sri Siddalinga Mahaswamiji of the Siddaganga Matha, Sidddaganga Hospital is a one-stop destination for world-class super speciality healthcare services. Siddaganga Hospital was envisaged by a group of like-minded doctors with an aim to fulfil the ever growing medical needs of the community. A team of well-experienced and highly skilled doctors are available round the clock across all departments, backed by well- trained paramedical staff, and state-of-art technology & medical services.Full-fledged emergency care is available 24/7 to handle all medical and surgical emergencies that include accident, trauma and many such emergencies. 200 beds suited to all cadre of society, Speciality healthcare facilities, A dedicated team of experienced doctorsFully-equipped blood bank that operates 24/7 supporting whole blood, platelet concentrate, fresh frozen plasma, concentrated RBC’s & single donor precipitate.Advanced cardiac cath lab service with dedicated cardiologists who offer both interventional cardiac procedures and non-invasive cardiology care.All specialities and super specialities under one roof, Complete laboratory and diagnostic services, 24/7 emergency services.Centrally located Easily accessible by road or train, Excellent transport connectivity
+    </textarea>
+    </center>
+    <br><br>
+    <hr>
+    <br><br>
+    <center><p style="opacity: 0.6; font-size: 1.3rem; line-height: 1.8rem;">Emergency Scenarios :</p></center>
+
+    <div style="margin: 0 2rem  2rem;">
+        <div class="card-group" id="1">
+            <div class="card m-2" style="height: 10rem; position: relative;">
+                <img src="/Sem Project/cardiac.avif" class="card-img-top" alt="...">
+                <div class="card-text-overlay">
+                    <p style="margin-bottom: 0;">Cardiac Emergencies - Learn about handling heart-related emergencies.</p>
+                </div>
+                <button id="but" class="btn btn-primary btn-sm explore-button" href="https://www.redcross.org/take-a-class/cpr">Explore</button>
+            </div>
+            <!-- Add description below this card -->
+            <div class="card m-2" style="height: 10rem; position: relative;">
+                <img src="/Sem Project/usman-yousaf-Js0OXL9mQOs-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-text-overlay">
+                    <p style="margin-bottom: 0;">Health - Explore tutorials on various first-aid techniques.</p>
+                </div>
+                <button id="but" class="btn btn-primary btn-sm explore-button">Explore</button>
+            </div>
+            <!-- Add description below this card -->
+            <div class="card m-2" style="height: 10rem; position: relative;">
+                <img src="/Sem Project/bleed.avif" class="card-img-top" alt="...">
+                <div class="card-text-overlay">
+                    <p style="margin-bottom: 0;">Health - Learn how to handle bleeding injuries.</p>
+                </div>
+                <button id="but" class="btn btn-primary btn-sm explore-button">Explore</button>
+            </div>
+            <!-- Add description below this card -->
+        </div>
+        <br>
+        <div class="card-group">
+            <!-- Add more card groups with descriptions -->
+        </div>
+        <br>
+        <div class="card-group">
+            <!-- Add more card groups with descriptions -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Registration</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contact" class="form-label">Contact No</label>
+                            <input type="text" class="form-control" id="contact">
+                        </div>
+                        <div class="mb-3">
+                            <label for="course" class="form-label">Preferred Course</label>
+                            <select name="choose" id="select">
+                                <option value="cpr">CPR Training Course</option>
+                                <option value="ndm">Natural Diasaster Management Course</option>
+                                <option value="psych">Psychological Counselling</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="color: rgb(131, 131, 184);">
+        <div class="address">
+            <p style="font-size: 0.75rem;">Address</p>
+            <p style="font-size: 0.65rem;">Bengaluru - Honnavar Road Sri Shivajikumar Swamiji Clinic, opposite to Axis Bank, Tumakuru, Karnataka 572102</p>
+            <p style="font-size: 0.75rem; line-height: 1.2rem;">Accrediations</p>
+            <p>
+                <img src="/Sem Project/accrelogo1.webp" id="acc" alt="">
+                <img src="/Sem Project/accrelogo2.webp" id="acc" alt="">
+                <img src="/Sem Project/accrelogo3.webp" id="acc" alt="">
+            </p>
+        </div>
+        <nav class="nav-links flex-grow-1">
+            <a class="nav-link" href="#" id="foot">Contact Us</a>
+            <a class="nav-link" href="#" id="foot">Help</a>
+            <a class="nav-link" href="#" id="foot">Guide</a>
+            <a class="nav-link" href="#" id="foot">Emergency Dial</a>
+            <a class="nav-link" href="#" id="foot">Medical Information</a>
+        </nav>
+        <div class="additional-info">
+            <p style="font-size: 0.70rem;">Doctor Enquiry : 08162602222</p>
+            <p style="font-size:0.65rem;">Copyright &#169 2024 Siddaganga Health-Care Servives reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
